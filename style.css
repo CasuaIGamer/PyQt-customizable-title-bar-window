@@ -1,0 +1,66 @@
+
+QWidget {
+    font-family: arial;
+    background-color: rgb(50, 51, 57);
+    color: rgb(85, 90, 102)
+}
+
+#mainWindow {
+    border: 2px solid rgb(57, 58, 63);
+    border-radius: 10px;
+}
+
+#mainWindowMax {
+    border: 2px solid rgb(57, 58, 63);
+    border-radius: 0px;
+}
+
+/* title bar */
+
+#titleBar {
+    border-bottom: 2px solid rgb(57, 58, 63);
+    background-color: rgb(44, 45, 50);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#icon {
+    background-color: transparent;
+}
+
+#minimizeButton, #maximizeButton, #closeButton {
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+#closeButton {
+    font-size: 20px;
+    border-top-right-radius: 10px;
+}
+
+#minimizeButton:hover, #maximizeButton:hover {
+    background-color: rgb(255, 206, 0);
+}
+
+#minimizeButton:pressed, #maximizeButton:pressed {
+    background-color: rgb(255, 163, 0);
+    color: rgb(51, 57, 54)
+}
+
+#closeButton:hover {
+    background-color: rgb(210, 45, 57);
+}
+
+#closeButton:pressed {
+    background-color: rgb(148, 21, 32);
+    color: rgb(51, 57, 54)
+}
+
+/* content */
+
+#content {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
